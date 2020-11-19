@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PMAlertController",
+        "repositoryURL": "https://github.com/Sidetalker/PMAlertController",
+        "state": {
+          "branch": null,
+          "revision": "c545e3a4c8f0a4a3773428119e7438106f8a39a2",
+          "version": "5.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

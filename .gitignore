@@ -1,3 +1,9 @@
 *.xcbkptlist
 PMAlertController.xcodeproj/project.xcworkspace/xcuserdata
 Carthage/
+.build
+.swiftpm
+PMAlertControllerSample.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+PMAlertControllerSample/PMAlertControllerSample.xcodeproj/project.xcworkspace/xcuserdata
+PMAlertControllerSample/PMAlertControllerSample.xcodeproj/xcuserdata

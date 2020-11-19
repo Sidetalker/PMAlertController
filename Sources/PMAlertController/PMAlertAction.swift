@@ -6,6 +6,8 @@
 //  Copyright © 2018 Codeido. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 @objc public enum PMAlertActionStyle : Int {
@@ -66,3 +68,5 @@ import UIKit
     }
     
 }
+
+#endif

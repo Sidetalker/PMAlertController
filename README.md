@@ -5,8 +5,6 @@
 
   [![Language](https://img.shields.io/badge/Swift-4%20%26%205-orange.svg)]()
   [![GitHub license](https://img.shields.io/cocoapods/l/PMAlertController.svg)](https://github.com/pmusolino/PMAlertController/blob/master/LICENSE)
-  [![Pod version](https://img.shields.io/cocoapods/v/PMAlertController.svg?style=flat)](https://cocoapods.org/pods/PMAlertController)
-  [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-yellow.svg)](https://github.com/Carthage/Carthage)
   [![Downloads](https://img.shields.io/cocoapods/dt/PMAlertController.svg)](https://cocoapods.org/pods/PMAlertController)
 
 
@@ -28,70 +26,21 @@ PMAlertController is a small library that allows you to substitute Apple's uncus
 - [x] Closure when a button is pressed
 - [x] Text Fields support
 - [x] Similar implementation to UIAlertController
-- [x] Cocoapods
-- [x] Carthage
 - [x] Animation with UIKit Dynamics
-- [x] Objective-C compatibility
-- [x] Swift 4, Swift 4.2 & Swift 5 support
-- [ ] Swift Package Manager
+- [x] Swift 5 support
+- [x] Swift Package Manager
 
 
 ## Requirements
 ----------------
 
 - iOS 9.0+
-- Xcode 10+
+- Xcode 12.2+
 
-## CocoaPods
+## Swift Package Manager
 ----------------
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-To integrate PMAlertController into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
-use_frameworks!
-
-pod 'PMAlertController'
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
-## Carthage
-----------------
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate PMAlertController into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "pmusolino/PMAlertController"
-```
-
-Run `carthage update` to build the framework and drag the built `PMAlertController.framework` into your Xcode project.
-
-## Manually
-----------------
-1. Download and drop ```/Library``` folder in your project.  
-2. Congratulations!  
+Add https://github.com/Sidetalker/PMAlertController to your Swift Packages.
 
 ## Usage
 ----------------
@@ -128,14 +77,6 @@ self.present(alertVC, animated: true, completion: nil)
 ## Swift compatibility
 
 - If you use **Swift 5.0 or higher**, you can use the [latest release](https://github.com/pmusolino/PMAlertController/releases).
-
-- If you use **Swift 4**, you can use the [release 3.5.0](https://github.com/pmusolino/PMAlertController/releases/tag/3.5.0).
-
-- If you use **Swift 3**, you can use the [release 2.1.3](https://github.com/pmusolino/PMAlertController/releases/tag/2.1.3).
-
-- If you use **Swift 2.3**, you can use the [release 1.1.0](https://github.com/pmusolino/PMAlertController/releases/tag/1.1.0)
-
-- If you use **Swift 2.2**, you can use the [release 1.0.5](https://github.com/pmusolino/PMAlertController/releases/tag/1.0.5)
 
 
 ## Third Party Bindings

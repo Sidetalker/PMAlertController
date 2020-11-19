@@ -6,6 +6,8 @@
 //  Copyright © 2018 Codeido. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 @objc public enum PMAlertControllerStyle : Int {
@@ -153,10 +155,8 @@ import UIKit
     }
     
     @objc fileprivate func loadNibAlertController() -> [AnyObject]?{
-        let podBundle = Bundle(for: self.classForCoder)
-        
-        if let bundleURL = podBundle.url(forResource: "PMAlertController", withExtension: "bundle"){
-            
+        if let bundleURL = Bundle.module.url(forResource: "PMAlertController", withExtension: "bundle"){
+
             if let bundle = Bundle(url: bundleURL) {
                 return bundle.loadNibNamed("PMAlertController", owner: self, options: nil) as [AnyObject]?
             }
@@ -165,7 +165,7 @@ import UIKit
             }
             
         }
-        else if let nib = podBundle.loadNibNamed("PMAlertController", owner: self, options: nil) as [AnyObject]?{
+        else if let nib = Bundle.module.loadNibNamed("PMAlertController", owner: self, options: nil) as [AnyObject]?{
             return nib
         }
         else{
@@ -238,3 +238,5 @@ extension PMAlertController: UITextFieldDelegate {
         return true
     }
 }
+
+#endif
